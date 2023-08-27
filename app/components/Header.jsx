@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 import stylesMain from '../main.module.css'
-import styles from './header.module.css'
+import styles from './Header.module.css'
 
 export default function Header() {
   const [menu, setMenu] = useState(false)
