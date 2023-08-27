@@ -1,0 +1,110 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #101010;
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    align-items: center;
+}
+
+.logo{
+    cursor: default;
+}
+
+.logo:hover .logoText{
+    transition: all .2s;
+    color: #e6e6e6;
+}
+
+.logoText{
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+}
+
+.logoDash{
+    color: #C72828;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menuBtn{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    gap: 5px;
+    background-color: #101010;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+}
+
+.btnLine{
+    width: 100%;
+    background-color: white;
+    height: 2px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menuActive .menu{
+    transform: translateY(0) !important;
+}
+
+.menuLink{
+    font-size: 16px;
+    transition: all .2s;
+}
+
+.menuLink:hover{
+    color: #d4d4d4;
+}
+
+@media(max-width: 850px){
+    .menuBtn{
+        display: inline-flex;
+    }
+    .menu{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: #0A0A0A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: .3s ease;
+        height: 100vh;
+    }
+    .menuLink{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 500px){
+    .menuLink{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 300px){
+    .menuLink{
+        font-size: 16px;
+    }
+}

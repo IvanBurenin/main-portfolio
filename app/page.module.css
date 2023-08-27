@@ -1,0 +1,294 @@
+.title{
+    color: #FF3F3F;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.top{
+    height: 100vh;
+}
+
+.topInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.minTitle{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.subTitle{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.96px;
+    opacity: 0.5;
+}
+
+.button{
+    padding: 20px 80px;
+    margin-top: 30px;
+    background-color: #C72828;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.button:hover{
+    background-color: #181818;
+}
+
+.about{
+    padding-top: 100px;
+}
+
+.aboutInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+}
+
+.aboutRight{
+    width: 550px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.projects{
+    padding-top: 180px;
+}
+
+.grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 525px);
+    justify-content: space-between;
+    grid-row-gap: 40px;
+}
+
+.gridItem{
+    width: 525px;
+}
+
+.gridItem a img{
+    transition: all .1s;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gridItem a:hover img{
+    border: 1px #d4d4d4 solid;
+}
+
+.projectTitle{
+    margin-top: 15px;
+    transition: all .1s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skills{
+    padding-top: 180px;
+}
+
+.skillsList{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 90px;
+    width: 100%;
+}
+
+.skillImg{
+    max-width: 510px;
+    object-fit: contain;
+}
+
+.contacts{
+    padding-top: 180px;
+    padding-bottom: 240px;
+}
+
+.textSection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactsList{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact{
+    display: inline-flex;
+    align-items: center;
+}
+
+.kwork{
+    transition: all .3s;
+}
+
+.linkIcon{
+    transition: all .3s;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.linkIcon path{
+    transition: all .3s;
+}
+
+.contactLink{
+    transition: all .3s;
+    margin-left: 10px;
+}
+
+.contact:hover .kwork{
+    color: #d4d4d4;
+}
+
+.contact:hover .linkIcon path{
+    fill: #d4d4d4;
+}
+
+.contact:hover .contactLink{
+    color: #d4d4d4;
+}
+
+@media (max-width: 1110px){
+    .grid{
+        grid-template-columns: repeat(2, 2fr);
+        gap: 50px;
+    }
+    .gridItem{
+        width: 100%;
+    }
+    .gridItem img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .text{
+        font-size: 18px;
+    }
+    .projectTitle{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px){
+    .grid{
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .gridItem a img{
+        height: 260px;
+    }
+}
+
+@media (max-width: 950px){
+    .aboutInner{
+        flex-direction: column;
+    }
+    .aboutLeft{
+        width: 100%;
+    }
+    .aboutRight{
+        width: 100%;
+    }
+    .skillsList{
+        justify-content: space-around;
+        gap: 60px 70px;
+    }
+    .skillImg{
+        max-width: 180px;
+    }
+}
+
+@media(max-width: 550px){
+    .contactsList{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0;
+        align-items: center;
+    }
+    .contactLink{
+        display: none;
+    }
+    .kwork{
+        font-size: 30px;
+    }
+    .linkIcon{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width: 500px){
+    .skillImg{
+        max-width: 135px;
+    }
+}
+
+@media(max-width: 400px){
+    .text{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .button{
+        padding: 20px 50px;
+        font-size: 16px;
+    }
+    .projectTitle{
+        font-size: 16px;
+    }
+    .skillsList{
+        gap: 60px 15px;
+    }
+    .skillImg{
+        max-width: 115px;
+    }
+    .linkIcon{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media(max-width: 300px){
+    .subTitle{
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media(max-height:600px){
+    .top{
+        padding-top: 85px;
+    }
+}

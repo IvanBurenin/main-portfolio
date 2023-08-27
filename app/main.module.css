@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300;1,500&family=Manrope:wght@300;400;500&display=swap');
+
+.wrapper{
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    background: linear-gradient(105deg, #161616 0%, #484848 100%);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main{
+	min-height: 100%;
+}
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1165px;
+}
