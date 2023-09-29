@@ -118,7 +118,7 @@ export default function Home() {
             </div>
             <ul className={styles.contactsList}>
               <li>
-                <Link className={styles.contact} href='https://kwork.ru/user/ivanburenin' target='a_blank' rel="noreferrer">
+                <Link className={styles.contact} href='https://kwork.ru/user/bureninivan22' target='a_blank' rel="noreferrer">
                   <span className={styles.kwork}>KWORK</span>
                   <span className={styles.contactLink}>https://kwork.ru/user/ivanburenin</span>
                 </Link>
