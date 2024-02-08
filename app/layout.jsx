@@ -4,7 +4,7 @@ import './normalize.css'
 import mainStyles from './main.module.css'
 
 export const metadata = {
-  title: 'STYLE/SPEED/QUALITY',
+  title: 'BURENIN PRODUCTION',
   description: 'The main section of the portfolio website of Ivan Burenin',
 }
 
