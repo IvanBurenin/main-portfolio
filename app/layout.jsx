@@ -5,7 +5,7 @@ import mainStyles from './main.module.css'
 
 export const metadata = {
   title: 'BURENIN PRODUCTION',
-  description: 'The main section of the portfolio website of Ivan Burenin',
+  description: 'Burenin Production веб-разработка и веб-дизайн на заказ',
 }
 
 export default function RootLayout({children}) {
