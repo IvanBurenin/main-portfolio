@@ -1,5 +1,5 @@
 .title{
-    color: #15CFF8;
+    color:#10778e;
     font-size: 32px;
     font-weight: 500;
     text-transform: uppercase;
@@ -33,8 +33,8 @@
 
 .button{
     padding: 20px 80px;
-    margin-top: 30px;
-    background-color: #15CFF8;
+    margin-top: 40px;
+    background-color: #10778e;
     border-radius: 15px;
     text-align: center;
     text-transform: uppercase;
