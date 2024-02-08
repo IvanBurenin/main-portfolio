@@ -10,7 +10,7 @@ export default function Home() {
         <div className={mainStyles.container}>
           <div className={styles.topInner}>
             <p className={styles.minTitle}>Веб-разработка и веб-дизайн</p>
-            <img src="./main/bureninprod.png" alt="BURENIN PRODUCTION">
+            <img src="./main/bureninprod.png" alt="BURENIN PRODUCTION"/>
             <Link href='#contacts' className={styles.button}>Сделать заказ</Link>
           </div>
         </div>
