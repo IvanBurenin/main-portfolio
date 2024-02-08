@@ -18,13 +18,7 @@ export default function Header() {
       <header className={styles.header}>
         <div className={stylesMain.container}>
           <div className={`${styles.headerInner} ${menu ? styles.menuActive : ''}`}>
-            <div className={styles.logo}>
-              <span className={styles.logoText}>S</span>
-              <span className={styles.logoDash}>/</span>
-              <span className={styles.logoText}>S</span>
-              <span className={styles.logoDash}>/</span>
-              <span className={styles.logoText}>Q</span>
-            </div>
+            <img src="./main/bureninprod.png/" style="width: 80px">
             <button onClick={onClickMenu} className={styles.menuBtn}>
                 <span className={styles.btnLine}></span>
                 <span className={styles.btnLine}></span>
