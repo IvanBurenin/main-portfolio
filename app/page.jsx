@@ -1,7 +1,5 @@
 import Link from 'next/link'
 
-import TopText from './components/TopText'
-
 import mainStyles from './main.module.css'
 import styles from './page.module.css'
 
@@ -11,9 +9,8 @@ export default function Home() {
       <section className={styles.top}>
         <div className={mainStyles.container}>
           <div className={styles.topInner}>
-            <p className={styles.minTitle}>Front-End разработка</p>
-            <TopText/>
-            <p className={styles.subTitle}>Стиль Скорость Качество</p>
+            <p className={styles.minTitle}>Веб-разработка и веб-дизайн</p>
+            <img src="./main/bureninprod.png" alt="BURENIN PRODUCTION">
             <Link href='#contacts' className={styles.button}>Сделать заказ</Link>
           </div>
         </div>
