@@ -18,7 +18,7 @@ export default function Header() {
       <header className={styles.header}>
         <div className={stylesMain.container}>
           <div className={`${styles.headerInner} ${menu ? styles.menuActive : ''}`}>
-            <img src="./main/bureninprod.png/" style="width: 80px"/ alt="BURENIN PRODUCTION">
+            <img src="./main/bureninprod.png/" style={{width: 80px}} alt="BURENIN PRODUCTION">
             <button onClick={onClickMenu} className={styles.menuBtn}>
                 <span className={styles.btnLine}></span>
                 <span className={styles.btnLine}></span>
